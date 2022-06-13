@@ -1,0 +1,17 @@
+
+
+# SandboxPublicTokenCreateRequestOptions
+
+An optional set of options to be used when configuring the Item. If specified, must not be `null`.
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**webhook** | **String** | Specify a webhook to associate with the new Item. |  [optional] |
+|**overrideUsername** | **String** | Test username to use for the creation of the Sandbox Item. Default value is &#x60;user_good&#x60;. |  [optional] |
+|**overridePassword** | **String** | Test password to use for the creation of the Sandbox Item. Default value is &#x60;pass_good&#x60;. |  [optional] |
+|**transactions** | [**SandboxPublicTokenCreateRequestOptionsTransactions**](SandboxPublicTokenCreateRequestOptionsTransactions.md) |  |  [optional] |
+
+
+
